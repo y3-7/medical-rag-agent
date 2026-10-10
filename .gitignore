@@ -1,0 +1,28 @@
+# 当前项目的 Python 虚拟环境
+/venv2/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 私密配置，避免上传密钥
+.env
+.env.*
+!.env.example
+
+# 日志和临时文件
+*.log
+*.tmp
+
+# 系统及开发工具产生的文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 如果以后把模型权重放进项目，也不要上传
+*.gguf
+*.safetensors
+*.pt
+*.pth
